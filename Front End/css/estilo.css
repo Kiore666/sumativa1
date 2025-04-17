@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4A4E69;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    margin: 1em 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #9A8C98;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #C9ADA7;
+}
+
+main {
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1em 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.8em;
+    text-align: left;
+}
+
+th {
+    background-color: #F2E9E4;
+}
+
+.galeria-item {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+
+.galeria-item img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #4A4E69;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+form {
+    background-color: #F2E9E4;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #22223B;
+    color: white;
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* NUEVA ESTRUCTURA PARA ALINEACIÓN DE IMAGEN Y TEXTO */
+.info-bloque {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.info-bloque img {
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-bloque p {
+    flex: 1;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.contenido p {
+    padding-right: 10px;
+}
